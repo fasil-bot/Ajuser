@@ -11,7 +11,7 @@ var ddd = ggg.toString('utf-8')
 
 let whb = Config.WORKTYPE == 'public' ? false : true
 
-Ajuser.addCommand({pattern: 'ajuser', fromMe: whb, dontAddCommandList: true}, (async (message, match) => {
+Ajuser.addCommand({pattern: 'fasil ser', fromMe: whb, dontAddCommandList: true}, (async (message, match) => {
 // send a buttons message!
     var plk_say = new Date().toLocaleString('HI', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
@@ -21,13 +21,13 @@ var afnplk = '```⏱ Time :' + plk_say + '```\n\n ```📅 Date :' + plk_here + '
 
         {buttonId: 'id1', buttonText: {displayText: 'PODA😏'}, type: 1},
         {buttonId: 'id2', buttonText: {displayText: 'NJAN MANDAN ONNUMALLA😝'}, type: 1},
-        {buttonId: 'id3', buttonText: {displayText: '🦋OWNER🦋 \n\n```creater Aju```\n\n```owner number wa.me/917994873071```\n\n\n'  }, type: 1},
+        {buttonId: 'id3', buttonText: {displayText: '🦋FASIL-SER🦋 \n\n```creater Fasil```\n\n```owner number wa.me/919539613960```\n\n\n'  }, type: 1},
 
       ]
       
       const buttonMessage = {
           contentText: 'Eda eda, mandankonappi.. Nee enne kooduthal mandan aakkatheda😂 ',
-          footerText: '©ᴀᴊᴜ™',
+          footerText: '©ғʀᴀɴᴄɪs™',
           buttons: buttons,
           headerType: 1
       }
